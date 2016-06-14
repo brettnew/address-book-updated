@@ -26,6 +26,13 @@
             <div id="new-addresses">
               <div class="new-address">
                 <div class="form-group">
+                  <label for="address-type">Type of Address:</label>
+                  <select class="form-control address-type">
+                    <option value="Home">Home</option>
+                    <option value="Work">Work</option>
+                  </select>
+                </div>
+                <div class="form-group">
                   <label for="new-street">Street</label>
                   <input type="text" class="form-control new-street">
                 </div>
@@ -55,10 +62,10 @@
             <h2></h2>
             <p>First name: <span class="first-name"></span></p>
             <p>Last name: <span class="last-name"></span></p>
-            <p>Addresses:</p>
-            <ul id="addresses">
+            <h4>Addresses:</h4>
+            <p id="addresses">
 
-            </ul>
+            </p>
           </div>
         </div>
       </div>
